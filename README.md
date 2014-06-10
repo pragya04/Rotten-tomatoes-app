@@ -17,4 +17,6 @@ Walkthrough of all user stories:
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
+Network error:
+
 ![Alt text](rottentomatoes_error.png "Network error")
