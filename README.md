@@ -5,13 +5,16 @@ Used cocoapods and AFNetworking library for async loading of images
 
 Completed user stories:
 
-Required: User can view a list of latest box office movies including title, poster image and synopsis
-Required: User can click on a movie in the list to bring up a details page
-Required: User can pull to refresh to get latest content
-Required: If the user is not connected, it shows the network error
-Required: Loading spinner shows while the contents is being fetched and downloaded
+* [x] Required: User can view a list of latest box office movies including title, poster image and synopsis
+* [x] Required: User can click on a movie in the list to bring up a details page
+* [x] Required: User can pull to refresh to get latest content
+* [x] Required: If the user is not connected, it shows the network error bar
+* [x] Required: Loading spinner shows while the contents is being fetched and downloaded
+
+Walkthrough of all user stories:
 
 ![Video Walkthrough](rottenTomatoesVideo.gif)
 
-Walkthrough of all user stories:
-GIF created with LiceCap. (slowed down spinner to take snapshot)
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+![Alt text](rottentomatoes_error.png "Network error")
