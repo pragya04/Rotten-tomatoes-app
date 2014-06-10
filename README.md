@@ -10,5 +10,3 @@ Required: User can click on a movie in the list to bring up a details page
 Required: User can pull to refresh to get latest content
 Required: If the user is not connected, it shows the network error bar
 Required: Loading spinner shows while the contents is being fetched and downloaded
-
-
