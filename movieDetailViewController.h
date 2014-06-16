@@ -13,13 +13,9 @@
     @public NSString *movieTitle;
     @public NSString *movieSynopsis;
     @public NSString *movieImageUrl;
-    @public NSString *movieYear;
 }
 @property (weak, nonatomic) IBOutlet UIImageView *detailPoster;
 @property (weak, nonatomic) IBOutlet UILabel *detailMovieTitle;
 @property (weak, nonatomic) IBOutlet UITextView *detailSynopsis;
-@property (weak, nonatomic) IBOutlet UILabel *detailMovieYear;
-
-
 
 @end

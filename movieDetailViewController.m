@@ -28,7 +28,6 @@
     [super viewDidLoad];
     self.detailMovieTitle.text = [movieTitle description];
     self.detailSynopsis.text = [movieSynopsis description];
-    self.detailMovieYear.text = [movieYear description];
     NSString *imageUrl = [movieImageUrl description];
     NSURL *url = [NSURL URLWithString:imageUrl];
     NSURLRequest *urlRequest = [[NSURLRequest alloc] initWithURL:url];
@@ -36,6 +35,10 @@
         self.detailPoster.image = image;
     }
                     failure:nil];
+    self.detailPoster.alpha = 0.0;
+    [UIView animateWithDuration:0.5 animations:^{
+        self.detailPoster.alpha = 1.0;
+    }];
 }
 
 - (void)didReceiveMemoryWarning

@@ -8,16 +8,44 @@
 
 #import "rottenTomatoesAppDelegate.h"
 #import "MoviesViewController.h"
+#import "topDvdsViewController.h"
 
 @implementation rottenTomatoesAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    MoviesViewController *vc = [[MoviesViewController alloc]init];
-    UINavigationController *nvc = [[UINavigationController alloc]initWithRootViewController:vc];
-    self.window.rootViewController = nvc;
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    NSURLCache *URLCache = [[NSURLCache alloc] initWithMemoryCapacity:4 * 1024 * 1024
+                                                         diskCapacity:20 * 1024 * 1024
+                                                             diskPath:nil];
+    [NSURLCache setSharedURLCache:URLCache];
+
+    // Create the tab bar controller
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    self.window.rootViewController = tabBarController;
+    
+    
+    MoviesViewController *mvc = [[MoviesViewController alloc]init];
+    topDvdsViewController *dvc = [[topDvdsViewController alloc]init];
+    
+    
+    UINavigationController *movieNavigationController = [[UINavigationController alloc] initWithRootViewController:mvc];
+    
+    movieNavigationController.tabBarItem.title = @"Movies";
+    movieNavigationController.tabBarItem.image = [UIImage imageNamed:@"Movies"];
+
+    
+    UINavigationController *dvdNavigationController = [[UINavigationController alloc] initWithRootViewController:dvc];
+    dvdNavigationController.tabBarItem.title = @"DVD";
+    dvdNavigationController.tabBarItem.image = [UIImage imageNamed:@"DVD"];
+    
+        tabBarController.viewControllers = @[movieNavigationController, dvdNavigationController];
+
+    
+    
+    
+    self.window.backgroundColor = [UIColor blackColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

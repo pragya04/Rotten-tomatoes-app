@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MoviesViewController.m"
-            timestampString = "424043037.047267"
+            timestampString = "424557640.839794"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
             <Locations>
@@ -56,11 +56,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "movieDetailViewController.m"
-            timestampString = "424043037.047267"
+            timestampString = "424557640.839794"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
@@ -72,11 +72,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MoviesViewController.m"
-            timestampString = "424065394.367785"
+            timestampString = "424555150.696643"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>

@@ -10,6 +10,8 @@
 		1541F8011945987100FD4AA9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1541F8001945987100FD4AA9 /* Reachability.m */; };
 		1541F803194598C500FD4AA9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1541F802194598C500FD4AA9 /* SystemConfiguration.framework */; };
 		1541F8051946406100FD4AA9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1541F8041946406100FD4AA9 /* README.md */; };
+		1541F809194E797800FD4AA9 /* topDvdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1541F807194E797800FD4AA9 /* topDvdsViewController.m */; };
+		1541F80A194E797800FD4AA9 /* topDvdsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1541F808194E797800FD4AA9 /* topDvdsViewController.xib */; };
 		1586309F1944523A00DABBFA /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1586309D1944523A00DABBFA /* MovieCell.m */; };
 		158630A01944523A00DABBFA /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1586309E1944523A00DABBFA /* MovieCell.xib */; };
 		158630A41945399100DABBFA /* movieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158630A21945399100DABBFA /* movieDetailViewController.m */; };
@@ -46,6 +48,9 @@
 		1541F8001945987100FD4AA9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "../../../../Downloads/Reachability-master/Reachability.m"; sourceTree = "<group>"; };
 		1541F802194598C500FD4AA9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1541F8041946406100FD4AA9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1541F806194E797800FD4AA9 /* topDvdsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = topDvdsViewController.h; sourceTree = "<group>"; };
+		1541F807194E797800FD4AA9 /* topDvdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = topDvdsViewController.m; sourceTree = "<group>"; };
+		1541F808194E797800FD4AA9 /* topDvdsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = topDvdsViewController.xib; sourceTree = "<group>"; };
 		1586309C1944523A00DABBFA /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
 		1586309D1944523A00DABBFA /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
 		1586309E1944523A00DABBFA /* MovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
@@ -104,6 +109,9 @@
 		15C1922B19413E780008467C = {
 			isa = PBXGroup;
 			children = (
+				1541F806194E797800FD4AA9 /* topDvdsViewController.h */,
+				1541F807194E797800FD4AA9 /* topDvdsViewController.m */,
+				1541F808194E797800FD4AA9 /* topDvdsViewController.xib */,
 				1541F8041946406100FD4AA9 /* README.md */,
 				1541F7FF1945987100FD4AA9 /* Reachability.h */,
 				1541F8001945987100FD4AA9 /* Reachability.m */,
@@ -265,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1541F8051946406100FD4AA9 /* README.md in Resources */,
+				1541F80A194E797800FD4AA9 /* topDvdsViewController.xib in Resources */,
 				15C1924219413E780008467C /* InfoPlist.strings in Resources */,
 				15C1926A19413EBD0008467C /* MoviesViewController.xib in Resources */,
 				158630A51945399100DABBFA /* movieDetailViewController.xib in Resources */,
@@ -327,6 +336,7 @@
 				158630A41945399100DABBFA /* movieDetailViewController.m in Sources */,
 				1541F8011945987100FD4AA9 /* Reachability.m in Sources */,
 				15C1924419413E780008467C /* main.m in Sources */,
+				1541F809194E797800FD4AA9 /* topDvdsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
