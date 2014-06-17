@@ -39,8 +39,7 @@
     UINavigationController *dvdNavigationController = [[UINavigationController alloc] initWithRootViewController:dvc];
     dvdNavigationController.tabBarItem.title = @"DVD";
     dvdNavigationController.tabBarItem.image = [UIImage imageNamed:@"DVD"];
-    
-        tabBarController.viewControllers = @[movieNavigationController, dvdNavigationController];
+    tabBarController.viewControllers = @[movieNavigationController, dvdNavigationController];
 
     
     
